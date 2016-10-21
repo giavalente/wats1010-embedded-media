@@ -1,10 +1,181 @@
-/******************************************************************************
- * WATS1010: Introduction to Web Development
- * Embedded Media Assignment
- *
- * Site Styles
- *****************************************************************************/
-
- html {
-     color: green;
- }
+/* Style page for embedded media assignment */
+  html {
+    padding: 0;
+    font-family: "verdana", sans-serif;
+    color: teal;
+}
+/* Gradient background */
+  body {
+    margin: 0;
+    background: skyblue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(skyblue, skyblue, limegreen); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(skyblue, skyblue, limegreen); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(skyblue, skyblue, limegreen); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(skyblue, skyblue, limegreen); /* Standard syntax */
+}
+/* Place header image */
+  header {
+    margin: 0px;
+    float: top;
+    background-image: url("../img/official_header.jpg");
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  h1 {
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 10px;
+    float: left;
+ /* border-style: solid;
+    border-color: orange; */
+}
+  .subtitle {
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 10px;
+    padding-top: 17px;
+    padding-left: 5px;
+    float: left;
+    clear: right;
+ /* border-style: solid;
+    border-color: yellow; */
+}
+  .main-nav {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 0;
+    margin-bottom: 35px;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    clear: left;
+    list-style-type: none;
+    color: skyblue;
+}
+  ul.main-nav li {
+    display: inline;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
+    background-color: lightpink;
+    border-style: solid;
+    border-color: lightpink;
+    border-radius: 8px;
+}
+/* Nav link hover colors */
+  a:link, a:visited {
+    color: #2F4F4F;
+    text-decoration: none;
+}
+  a:hover, a:active {
+    color: teal;
+}
+/* Fix position for social media links, slides out on hover */
+  #social {
+    background-color: pink;
+    position: fixed;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    top: 50px;
+    right: 0px;
+    width: 40px;
+    transition: 2s width;
+}
+  #social:hover {
+    width: 200px;
+}
+  #social li {
+    margin: 0;
+    padding: 0;
+}
+  #social ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 15px;
+}
+  #watch {
+/*  background-color: pink; */
+}
+  video {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 10px;
+ /* border-style: solid;
+    border-color: green; */
+}
+  p {
+    margin-left: 10px;
+}
+  h3 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 10px;
+ /* border-style: solid;
+    border-color: blue; */
+}
+  a.download-button {
+    background-color: skyblue;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+  #listen {
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0px;
+}
+  audio {
+    padding: 15px;
+}
+  p.listen {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+  #about {
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #54FF9F; 
+}
+  img.lead {
+    padding-top: 10px;
+}
+  p.lead {
+    padding: 10px;
+    margin-left: 40px;
+    background-color: #7FFFD4;
+    width: 60%;
+    border-radius: 5px;
+    clear: right;
+}
+  ul.weybec-people li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    float: left;
+    width: 30%;
+}
+  p.weybec-people {
+    margin-top: 10px;
+    clear: left;
+    width: 90%;
+}
+  footer {
+    margin-left: 10px;
+}
